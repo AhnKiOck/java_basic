@@ -1,0 +1,45 @@
+데이터타입: 데이터를 담아두는 그릇의 형태 
+		 - 기본형(primitive type), 참조형(reference type)
+primitive type : 수치형, 논리형
+수치형 : 정수형, 문자형, 실수형
+정수형 : byte < short < int(기본형) < long
+byte : 1byte = 8bit : -128 ~ 127 (256개)
+short : 2byte = 16bit : -32768 ~ 32767 
+int : 4byte = 32bit : -2147483648 ~ 2147483647
+long : 8byte = 64bit : -9223372036854775808 ~ 9223372036854775807 		 
+       L/l을 붙인다
+       
+long a = 12345678900L;
+    
+    
+문자형 : char : 2byte = 16bit 표현: ''
+문자는 각 문자가 특정 정수값으로 정해져 있다.
+
+실수형 : float < double(기본형)
+float : 4byte = 32bit  F/f를 붙인다 
+double : 8byte = 64bit
+
+논리형: boolean(1byte) - 참/거짓 을 표현하는 데이터타입
+      true / false
+        
+
+상수(Constant) : 표현방법 final 
+- 원주율과 같이 절대 바뀌지 않는 데이터를 담는것
+상수명의 명명규칙 : 모두 대문자로 명명
+final 데이터타입 상수명;
+final double PI;
+  
+수치형 데이터의 표현 범위
+byte < short < int < long < float < double 
+
+형변환 (데이터타입 변환) - Casting
+(변환하고자하는 데이터타입)변수 
+
+
+
+
+
+  
+  
+
+
